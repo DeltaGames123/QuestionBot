@@ -31,3 +31,4 @@ async def ask(ctx, *, pregunta):
 
 bot.run(TOKEN)
 
+print(TOKEN)
