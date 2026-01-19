@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = MTQ0MTM4MTk5OTIzODU3ODMwOQ.GC7LXJ.wOQSm0a4AbWm2xpG1SX7FTPTs56bnoYgkSHLCI
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -30,3 +30,4 @@ async def ask(ctx, *, pregunta):
     await ctx.send(respuesta)
 
 bot.run(TOKEN)
+
